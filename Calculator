@@ -4,8 +4,8 @@ class Program
 {
     static void Main()
     {
-        // Declare variables for two numbers and the difference
-        double num1, num2, difference;
+        // Declare variables for two numbers and the result
+        double num1, num2, result;
 
         // Ask the user for input
         Console.Write("Enter the first number: ");
@@ -14,10 +14,4 @@ class Program
         Console.Write("Enter the second number: ");
         num2 = Convert.ToDouble(Console.ReadLine());
 
-        // Perform the subtraction
-        difference = num1 - num2;
-
-        // Display the result
-        Console.WriteLine("The difference between {0} and {1} is {2}", num1, num2, difference);
-    }
-}
+        // Check
