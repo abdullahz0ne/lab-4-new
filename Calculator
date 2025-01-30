@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Print name and roll number
+        string name = "Muhammad Abdullah "; // Replace with your name
+        string rollNo = "021"; // Replace with your roll number
+
+        Console.WriteLine("Name: " + Muhammad Abdullah );
+        Console.WriteLine("Roll Number: " + 021 );
+    }
+}
