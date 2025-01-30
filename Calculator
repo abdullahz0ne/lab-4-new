@@ -4,11 +4,20 @@ class Program
 {
     static void Main()
     {
-        // Print name and roll number
-        string name = "Muhammad Abdullah "; // Replace with your name
-        string rollNo = "021"; // Replace with your roll number
+        // Declare variables for two numbers and the sum
+        double num1, num2, sum;
 
-        Console.WriteLine("Name: " + Muhammad Abdullah );
-        Console.WriteLine("Roll Number: " + 021 );
+        // Ask the user for input
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToDouble(Console.ReadLine());
+
+        // Perform the addition
+        sum = num1 + num2;
+
+        // Display the result
+        Console.WriteLine("The sum of {0} and {1} is {2}", num1, num2, sum);
     }
 }
